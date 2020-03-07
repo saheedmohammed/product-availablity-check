@@ -11,3 +11,10 @@ E.g;
 ```php
 //Get /products/search?speed_greater_than=500&color_not=black&price_less_than=100
 ```
+
+## Installation
+composer require saheed/availability-check
+
+#Migrate database
+php artisan migrate:fresh
+
