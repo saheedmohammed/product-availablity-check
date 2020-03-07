@@ -1,0 +1,26 @@
+{
+    "name": "saheed/availability-check",
+    "description": "Returns the available products with the conditions added in each service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saheed Mohammed",
+            "email": "saeedkerala@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Saheed\\AvailabilityCheck\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saheed\\AvailabilityCheck\\ProductServiceProvider"
+            ]
+        }
+    }
+}
