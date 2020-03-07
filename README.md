@@ -9,7 +9,7 @@ Now we can check the product availabilty by 3 services.
 
 E.g;
 ```php
-//Get /products?speed_greater_than=500&color_not=black&price_less_than=100
+//Get api/products?speed_greater_than=500&color_not=black&price_less_than=100
 ```
 
 ## Installation
