@@ -15,6 +15,6 @@ E.g;
 ## Installation
 composer require saheed/availability-check
 
-#Migrate database
+## Migrate database
 php artisan migrate:fresh
 
